@@ -4,13 +4,16 @@
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
 	import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
 	import { modalOpened } from '$lib/store';
+  	import Waves from '$lib/components/Waves.svelte';
 </script>
 
 <svelte:head>
 	<title>Matthew Roe - Main page</title>
 </svelte:head>
 <main>
+	
 	<h1>Matthew Roe<br>Solutions Architect</h1>
+	<Waves />
 	<div class="icons">
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div

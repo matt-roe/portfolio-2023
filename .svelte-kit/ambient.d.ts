@@ -41,7 +41,9 @@ declare module '$env/static/private' {
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const GTK_PATH: string;
+	export const NVM_BIN: string;
 	export const npm_package_json: string;
+	export const NVM_INC: string;
 	export const GTK_IM_MODULE_FILE: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
@@ -57,6 +59,7 @@ declare module '$env/static/private' {
 	export const COLORTERM: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 	export const COLOR: string;
+	export const NVM_DIR: string;
 	export const npm_config_metrics_registry: string;
 	export const MANDATORY_PATH: string;
 	export const FNM_VERSION_FILE_STRATEGY: string;
@@ -117,10 +120,10 @@ declare module '$env/static/private' {
 	export const FNM_MULTISHELL_PATH: string;
 	export const npm_execpath: string;
 	export const XDG_CONFIG_DIRS: string;
+	export const NVM_CD_FLAGS: string;
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
 	export const npm_command: string;
-	export const GTK_USE_PORTAL: string;
 	export const INIT_CWD: string;
 	export const EDITOR: string;
 	export const NODE_ENV: string;
@@ -168,7 +171,9 @@ declare module '$env/dynamic/private' {
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		GTK_PATH: string;
+		NVM_BIN: string;
 		npm_package_json: string;
+		NVM_INC: string;
 		GTK_IM_MODULE_FILE: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
 		GNOME_SHELL_SESSION_MODE: string;
@@ -184,6 +189,7 @@ declare module '$env/dynamic/private' {
 		COLORTERM: string;
 		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 		COLOR: string;
+		NVM_DIR: string;
 		npm_config_metrics_registry: string;
 		MANDATORY_PATH: string;
 		FNM_VERSION_FILE_STRATEGY: string;
@@ -244,10 +250,10 @@ declare module '$env/dynamic/private' {
 		FNM_MULTISHELL_PATH: string;
 		npm_execpath: string;
 		XDG_CONFIG_DIRS: string;
+		NVM_CD_FLAGS: string;
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
 		npm_command: string;
-		GTK_USE_PORTAL: string;
 		INIT_CWD: string;
 		EDITOR: string;
 		NODE_ENV: string;

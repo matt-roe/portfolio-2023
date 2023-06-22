@@ -3,8 +3,6 @@
 	import Button from '$lib/components/Button.svelte';
 	import FaCopy from 'svelte-icons/fa/FaCopy.svelte';
 	import Tooltip from '$lib/components/Tooltip.svelte';
-	import Waves from '$lib/components/Waves.svelte';
-	import Beach from '$lib/components/Beach.svelte';
 	import CopyClipBoard from '$lib/components/CopyToClipBoard.svelte';
 	import { beforeNavigate } from '$app/navigation';
 
@@ -111,14 +109,11 @@
 
 
 <div class="bg-wrapper hidden md:block fixed w-full bottom-0">
-	<Waves />
+	
 	<footer>
 		Created by <a class="me" href="/about">Matthew Roe</a> with
 		<span class="svelte">Svelte</span>
 	</footer>
-	<div class="beach fixed bottom-0 right-0 text-accent-900 pointer-events-none">
-		<Beach height="{'20vh'}" />
-	</div>
 </div>
 
 <style>
