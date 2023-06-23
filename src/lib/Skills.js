@@ -1,10 +1,9 @@
 const skills = {
-	programming: ['Node.js', 'TypeScript', 'React.js', 'Svelte.js', 'Go', 'Electron'],
+	programming: ['Node.js', 'JavaScript & TypeScript', 'Vue.js', 'Svelte.js', 'Google Apps Script', 'Python', 'PowerShell', 'SQL', 'HTML', 'CSS', ''],
 	// devops: [],
-	databases: ['MongoDB', 'PostgreSQL'],
+	tools: ['VSCode', 'DaisyUI', 'Stripe', 'APIs', 'Virtual Servers', 'OpenAI'],
 	// tools: [],
-	languages: ['Italian', 'English'],
-	other: ['Design principles', 'User interface design']
+	other: ['Solution charting', 'Demonstrations', 'Training', 'Documentation', 'Technical writing', 'Public speaking']
 };
 
 export default skills;

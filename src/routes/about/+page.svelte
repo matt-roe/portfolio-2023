@@ -10,10 +10,7 @@
 	<main>
 		<h1>About</h1>
 		<p>
-			I'm a Software developer with over 2 years of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm based in Italy and currently working
-			as a freelancer and coding in Node.js, React.js (and other web technologies) and Go(lang), but
-			I tend to learn and use the best technology and approach to best solve the problem I'm facing.
+			I'm a solutions architect, with a full-stack software developer skillset and a passion for data science and machine learning. I gained JavaScript and Python experience from my IT and Sales roles, with a specialty in quickly developing minimum viable product (MVP) prototypes of my solution designs. This rapid development is critical for early communications of technical proof to stakeholders internal or external (clients). Client calls or internal calls with c-suite level staekholders are a common use-case for my rare combination of interpersonal and technical skills.
 		</p>
 		<h2>Skills</h2>
 		{#each Object.entries(skills) as [section, technologies]}

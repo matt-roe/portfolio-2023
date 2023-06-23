@@ -1,16 +1,14 @@
 <script>
 	import Burger from './Hamburger.svelte';
-	import Logo from '$lib/assets/logo.svg';
 	import routes from '$lib/NavRoutes';
+	import Circuit from '$lib/components/Circuit.svelte';
 	let opened = false;
 	export let segment;
 </script>
 
 <div class={opened ? 'NavBar open' : 'NavBar'}>
 	<div class="innerContainer">
-		<a href="/">
-			<img src={Logo} alt="logo" class="logo" />
-		</a>
+		<Circuit />
 		<div class="burger">
 			<Burger bind:open={opened} />
 		</div>
@@ -89,12 +87,12 @@
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
+		overflow: hidden;
 		width: 100%;
-		max-width: 900px;
+		max-width: 1400px;
 		box-sizing: border-box;
 		padding: 20px;
-		height: 80px;
-		overflow: hidden;
+		height: 120px;
 		transition: height 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 	}
 

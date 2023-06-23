@@ -111,8 +111,8 @@
 <div class="bg-wrapper hidden md:block fixed w-full bottom-0">
 	
 	<footer>
-		Created by <a class="me" href="/about">Matthew Roe</a> with
-		<span class="svelte">Svelte</span>
+		Created by <a class="me" href="https://www.linkedin.com/in/matthew-roe-1a2368211/" target="_blank">Matthew Roe</a> with
+		<a href="https://svelte.dev/" target="_blank" class="svelte">Svelte</a> <p style="font-size:8px;">Thanks to https://gist.github.com/Aleksi44 for SVGs</p>
 	</footer>
 </div>
 

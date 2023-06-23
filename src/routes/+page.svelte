@@ -4,7 +4,7 @@
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
 	import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
 	import { modalOpened } from '$lib/store';
-  	import Waves from '$lib/components/Waves.svelte';
+  	import Blocks from '$lib/components/Blocks.svelte';
 </script>
 
 <svelte:head>
@@ -13,8 +13,8 @@
 <main>
 	
 	<h1>Matthew Roe<br>Solutions Architect</h1>
-	<Waves />
-	<div class="icons">
+	
+	<div class="icons" style="z-index: 50;">
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
 			on:click={() => {
@@ -37,7 +37,7 @@
 			</div>
 		</a>
 		<a
-			href=" "
+			href="https://www.linkedin.com/in/matthew-roe-1a2368211/"
 			aria-label="Linkedin"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -47,6 +47,7 @@
 			</div>
 		</a>
 	</div>
+	<Blocks />
 </main>
 
 <style>

@@ -2,7 +2,7 @@
 	import { goto } from '$app/navigation';
 </script>
 
-<div class="button" on:click={() => goto('mailto:cavallogianmarco@gmail.com')}>
+<div class="button" on:click={() => goto('mailto:mr.roe7@gmail.com')}>
 	<slot />
 </div>
 
