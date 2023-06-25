@@ -8,6 +8,9 @@
 
 To view a demo example, **[click here](https://gianmarco.xyz)**
 
+## Animated SVGs
+https://www.snoweb.io/en/web-design/svg-animation/
+
 ## Features
 
 - Modern and Minimal UI Design
